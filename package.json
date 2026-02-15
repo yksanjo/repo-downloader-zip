@@ -1,0 +1,12 @@
+{
+  "name": "repo-downloader-zip",
+  "version": "1.0.0",
+  "description": "Download repositories as ZIP files",
+  "main": "src/index.js",
+  "bin": { "gh-zip": "./src/index.js" },
+  "scripts": { "start": "node src/index.js" },
+  "keywords": ["github", "download", "zip"],
+  "author": "Yoshikondo",
+  "license": "MIT",
+  "dependencies": { "chalk": "^4.1.2" }
+}
